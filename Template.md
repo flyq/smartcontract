@@ -8,5 +8,5 @@
 
 ## Tokens
 
-| #   | Contract Address | Token Name | Market Cap | Holders | Website |
-| --- | ---------------- | ---------- | ---------- | ------- | ------- |
+| #   | Contract Address | Token Name | Market Cap | Holders |
+| --- | ---------------- | ---------- | ---------- | ------- |

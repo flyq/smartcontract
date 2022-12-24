@@ -193,8 +193,82 @@
 
 ## Tokens
 
-| #   | Contract Address                           | Token Name                    | Market Cap       | Holders | Website                 |
-| --- | ------------------------------------------ | ----------------------------- | ---------------- | ------- | ----------------------- |
-| 1   | 0x111111111117dc0aa78b770fa6a738034120c302 | 1INCH Token (1INCH)           | \$309,066,823.00 | 104,001 | https://1inch.io/       |
-| 2   | 0x0000000000004946c0e9F43F4Dee607b0eF1fA1c | Chi Gastoken by 1inch (CHI)   | \$81,947.00      | 7,999   | https://1inch.exchange/ |
-| 3   | 0x03d1b1a56708fa298198dd5e23651a29b76a16d2 | 1INCH Token (Vested) (v1INCH) | \$0.00           | 172     | https://1inch.io/       |
+### main
+
+| #   | Contract Address                           | Token Name                         | Market Cap | Holders |
+| --- | ------------------------------------------ | ---------------------------------- | ---------- | ------- |
+| 1   | 0xa685a61171bb30d4072b338c80cb7b2c865c873e | Aave interest bearing MANA (aMANA) | $0.00      | 1,003   |
+| 2   | 0xdf7ff54aacacbff42dfe29dd6144a69b629f8c9e | Aave interest bearing ZRX (aZRX)   | $0.00      | 226     |
+| 3   | 0xbcca60bb61934080951369a648fb03df4f96263c | Aave interest bearing USDC (aUSDC) | $0.00      | 8,654   |
+| 4   | 0xa06bc25b5805d5f8d82847d191cb4af5a3e873e0 | Aave interest bearing LINK (aLINK) | $0.00      | 2,716   |
+| 5   | 0x5165d24277cd063f5ac44efd447b27025e888f37 | Aave interest bearing YFI (aYFI)   | $0.00      | 851     |
+| 6   | 0xb9d7cb55f463405cdfbe4e90a6d2df01c2b92bf1 | Aave interest bearing UNI (aUNI)   | $0.00      | 1,739   |
+| 7   | 0x39c6b3e42d6a679d7d776778fe880bc9487c2eda | Aave interest bearing KNC (aKNC)   | $0.00      | 306     |
+| 8   | 0x030ba81f1c18d280636f32af80b9aad02cf0854e | Aave interest bearing WETH (aWETH) | $0.00      | 17,793  |
+| 9   | 0x101cc05f4a51c0319f570d5e146a8c625198e636 | Aave interest bearing TUSD (aTUSD) | $0.00      | 308     |
+| 10  | 0xac6df26a590f08dcc95d5a4705ae8abbc88509ef | Aave interest bearing ENJ (aENJ)   | $0.00      | 632     |
+| 11  | 0x9ff58f4ffb29fa2266ab25e75e2a8b3503311656 | Aave interest bearing WBTC (aWBTC) | $0.00      | 3,046   |
+| 12  | 0x6c5024cd4f8a59110119c56f8933403a539555eb | Aave interest bearing SUSD (aSUSD) | $0.00      | 387     |
+| 13  | 0x028171bca77440897b824ca71d1c56cac55b68a3 | Aave interest bearing DAI (aDAI)   | $0.00      | 5,336   |
+| 14  | 0x3ed3b47dd13ec9a98b44e6204a523e766b225811 | Aave interest bearing USDT (aUSDT) | $0.00      | 3,675   |
+| 15  | 0xa361718326c15715591c299427c62086f69923d9 | Aave interest bearing BUSD (aBUSD) | $0.00      | 801     |
+| 16  | 0x35f6b052c598d933d69a4eec4d04c73a191fe6c2 | Aave interest bearing SNX (aSNX)   | $0.00      | 2,575   |
+| 17  | 0x05ec93c0365baaeabf7aeffb0972ea7ecdd39cf1 | Aave interest bearing BAT (aBAT)   | $0.00      | 422     |
+| 18  | 0xcc12abe4ff81c9378d670de1b57f8e0dd228d77a | Aave interest bearing REN (aREN)   | $0.00      | 370     |
+| 19  | 0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9 | Aave Token (AAVE)                  | $0.00      | 148,012 |
+| 20  | 0xc713e5e149d5d0715dcd1c156a020976e7e56b88 | Aave interest bearing MKR (aMKR)   | $0.00      | 569     |
+
+### others
+| #   | Contract Address                           | Token Name                                    | Market Cap      | Holders |
+| --- | ------------------------------------------ | --------------------------------------------- | --------------- | ------- |
+| 1   | 0x4da27a545c0c5b758a6ba100e3a049001de870f5 | Staked Aave (stkAAVE)                         | $772,217,995.00 | 18,745  |
+| 2   | 0xba3D9687Cf50fE253cd2e1cFeEdE1d6787344Ed5 | Aave Interest bearing Aave Token (aAAVE)      | $772,217,995.00 | 148     |
+| 3   | 0x80fB784B7eD66730e8b1DBd9820aFD29931aab03 | EthLend (LEND)                                | $16,314,732.00  | 135,175 |
+| 4   | 0xf9Fb4AD91812b704Ba883B11d2B576E890a6730A | Aave AMM Market WETH (aAmmWETH)               | $0.00           | 234     |
+| 5   | 0xb8db81B84d30E2387de0FF330420A4AAA6688134 | Aave AMM Market UniLINKWETH (aAmmUniLINKWETH) | $0.00           | 4       |
+| 6   | 0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE | Aave Interest bearing SNX (aSNX)              | $0.00           | 867     |
+| 7   | 0xffc97d72e13e01096502cb8eb52dee56f74dad7b | Aave interest bearing AAVE (aAAVE)            | $0.00           | 1,900   |
+| 8   | 0x17a79792Fe6fE5C95dFE95Fe3fCEE3CAf4fE4Cb7 | Aave AMM Market USDT (aAmmUSDT)               | $0.00           | 59      |
+| 9   | 0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f | Aave Interest bearing ZRX (aZRX)              | $0.00           | 294     |
+| 10  | 0xf256cc7847e919fac9b808cc216cac87ccf2f47a | Aave interest bearing XSUSHI (aXSUSHI)        | $0.00           | 633     |
+| 11  | 0x0ea20e7fFB006d4Cfe84df2F72d8c7bD89247DB0 | Aave AMM Market UniCRVWETH (aAmmUniCRVWETH)   | $0.00           | 1       |
+| 12  | 0xFC4B8ED459e00e5400be803A9BB3954234FD50e3 | Aave Interest bearing WBTC (aWBTC)            | $0.00           | 261     |
+| 13  | 0x7deB5e830be29F91E298ba5FF1356BB7f8146998 | Aave Interest bearing MKR (aMKR)              | $0.00           | 231     |
+| 14  | 0xd37ee7e4f452c6638c96536e68090de8cbcdb583 | Aave interest bearing GUSD (aGUSD)            | $0.00           | 248     |
+| 15  | 0xE340B25fE32B1011616bb8EC495A4d503e322177 | Aave AMM Market UniDAIUSDC (aAmmUniDAIUSDC)   | $0.00           | 1       |
+| 16  | 0x41a08648c3766f9f9d85598ff102a08f4ef84f84 | Aave Balance Pool Token (ABPT)                | $0.00           | 48      |
+| 17  | 0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84 | Aave Interest bearing LINK (aLINK)            | $0.00           | 1,220   |
+| 18  | 0x71fc860F7D3A592A4a98740e39dB31d25db65ae8 | Aave Interest bearing USDT (aUSDT)            | $0.00           | 1,155   |
+| 19  | 0x2365a4890ed8965e564b7e2d27c38ba67fec4c6f | Aave AMM Market UniWBTCUSDC (aAmmUniWBTCUSDC) | $0.00           | 1       |
+| 20  | 0x71010A9D003445aC60C4e6A7017c1E89A477B438 | Aave Interest bearing REP (aREP)              | $0.00           | 50      |
+| 21  | 0xc9bc48c72154ef3e5425641a3c747242112a46af | Aave interest bearing RAI (aRAI)              | $0.00           | 124     |
+| 22  | 0xA1B0edF4460CC4d8bFAA18Ed871bFF15E5b57Eb4 | Aave AMM Market UniBATWETH (aAmmUniBATWETH)   | $0.00           | 1       |
+| 23  | 0xa1116930326d21fb917d5a27f1e9943a9595fb47 | Staked Aave Balance Pool Token (stkABPT)      | $0.00           | 606     |
+| 24  | 0x4DA9b813057D04BAef4e5800E36083717b4a0341 | Aave Interest bearing TUSD (aTUSD)            | $0.00           | 282     |
+| 25  | 0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f | Aave Interest bearing MANA (aMANA)            | $0.00           | 212     |
+| 26  | 0x391E86e2C002C70dEe155eAceB88F7A3c38f5976 | Aave AMM Market UniUSDCWETH (aAmmUniUSDCWETH) | $0.00           | 4       |
+| 27  | 0x9D91BE44C06d373a8a226E1f3b146956083803eB | Aave Interest bearing KNC (aKNC)              | $0.00           | 581     |
+| 28  | 0x272f97b7a56a387ae942350bbc7df5700f8a4576 | Aave interest bearing BAL (aBAL)              | $0.00           | 1,848   |
+| 29  | 0xe59d2FF6995a926A574390824a657eEd36801E55 | Aave AMM Market UniAAVEWETH (aAmmUniAAVEWETH) | $0.00           | 3       |
+| 30  | 0xd109b2a304587569c84308c55465cd9ff0317bfb | Aave AMM Market BptBALWETH (aAmmBptBALWETH)   | $0.00           | 5       |
+| 31  | 0x9bA00D6856a4eDF4665BcA2C2309936572473B7E | Aave Interest bearing USDC (aUSDC)            | $0.00           | 1,816   |
+| 32  | 0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8 | Aave Interest bearing Binance USD (aBUSD)     | $0.00           | 244     |
+| 33  | 0x3D26dcd840fCC8e4B2193AcE8A092e4a65832F9f | Aave AMM Market UniUNIWETH (aAmmUniUNIWETH)   | $0.00           | 5       |
+| 34  | 0x514cd6756ccbe28772d4cb81bc3156ba9d1744aa | Aave interest bearing RENFIL (aRENFIL)        | $0.00           | 16      |
+| 35  | 0xc58F53A8adff2fB4eb16ED56635772075E2EE123 | Aave AMM Market UniWBTCWETH (aAmmUniWBTCWETH) | $0.00           | 1       |
+| 36  | 0x358bd0d980e031e23eba9aa793926857703783bd | Aave AMM Market BptWBTCWETH (aAmmBptWBTCWETH) | $0.00           | 4       |
+| 37  | 0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d | Aave Interest bearing DAI (aDAI)              | $0.00           | 6,141   |
+| 38  | 0x38E491A71291CD43E8DE63b7253E482622184894 | Aave AMM Market UniSNXWETH (aAmmUniSNXWETH)   | $0.00           | -       |
+| 39  | 0x625aE63000f46200499120B906716420bd059240 | Aave Interest bearing SUSD (aSUSD)            | $0.00           | 555     |
+| 40  | 0x2e8f4bdbe3d47d7d7de490437aea9915d930f1a3 | Aave interest bearing PAX (aPAX)              | $0.00           | 28      |
+| 41  | 0x9303EabC860a743aABcc3A1629014CaBcc3F8D36 | Aave AMM Market UniDAIWETH (aAmmUniDAIWETH)   | $0.00           | 2       |
+| 42  | 0x5394794be8b6ed5572fcd6b27103f46b5f390e8f | Aave AMM Market UniYFIWETH (aAmmUniYFIWETH)   | $0.00           | 1       |
+| 43  | 0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04 | Aave Interest bearing ETH (aETH)              | $0.00           | 5,520   |
+| 44  | 0xd24946147829DEaA935bE2aD85A3291dbf109c80 | Aave AMM Market USDC (aAmmUSDC)               | $0.00           | 98      |
+| 45  | 0xA9e201A4e269d6cd5E9F0FcbcB78520cf815878B | Aave AMM Market UniRENWETH (aAmmUniRENWETH)   | $0.00           | 1       |
+| 46  | 0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00 | Aave Interest bearing BAT (aBAT)              | $0.00           | 634     |
+| 47  | 0x13B2f6928D7204328b0E8E4BCd0379aA06EA21FA | Aave AMM Market WBTC (aAmmWBTC)               | $0.00           | 26      |
+| 48  | 0x79bE75FFC64DD58e66787E4Eae470c8a1FD08ba4 | Aave AMM Market DAI (aAmmDAI)                 | $0.00           | 68      |
+| 49  | 0x370adc71f67f581158Dc56f539dF5F399128Ddf9 | Aave AMM Market UniMKRWETH (aAmmUniMKRWETH)   | $0.00           | 1       |
+| 50  | 0x7D2D3688Df45Ce7C552E19c27e007673da9204B8 | Aave Interest bearing LEND (aLEND)            | $0.00           | 412     |
+| 51  | 0x1e6bb68acec8fefbd87d192be09bb274170a0548 | Aave interest bearing AMPL (aAMPL)            | $0.00           | 1,123   |
